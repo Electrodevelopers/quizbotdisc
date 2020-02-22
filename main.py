@@ -1,8 +1,7 @@
 import discord
+import config
 client = discord.Client()
 
-import config.py
-import lobby.py
 
 
 @client.event
@@ -14,4 +13,4 @@ async def on_message(msg):
 	print(msg.author.name)
 
 
-client.run(token)
+client.run('NjgwODQwNDczOTc1NTg2OTkz.XlFz-A.aDtEKtDhI0X2vssCKz7q5VNIC8w')
